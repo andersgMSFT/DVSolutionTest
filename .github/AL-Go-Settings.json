@@ -3,7 +3,7 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@PPPreview",
   "powerPlatformSolutionFolder": "TestSolution",
   "environments": [
-    "Dev",
+    "Dev (production)",
     "Staging"
   ],
   "DeployToStaging": {
