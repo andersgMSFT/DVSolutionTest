@@ -1,4 +1,19 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@PPPreview"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@PPPreview",
+  "powerPlatformSolutionFolder": "TestSolution",
+  "environments": [
+    "Dev",
+    "Staging"
+  ],
+  "DeployToStaging": {
+    "environmentName": "sandbox",
+    "companyId": "772439c5-0c5c-ee11-8df4-6045bde98",
+    "ppEnvironmentUrl": "https://org8cd5a15c.crm.dynamics.com"
+  },
+    "DeployToDev": {
+    "environmentName": "production",
+    "companyId": "772439c5-0c5c-ee11-8df4-6045bde98",
+    "ppEnvironmentUrl": "https://orgfd25581c.crm.dynamics.com/"
+  }
 }
